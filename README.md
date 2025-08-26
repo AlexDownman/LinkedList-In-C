@@ -9,7 +9,6 @@
 | **Insert Before a Node** *(Optional)* | Insert a new node immediately before a specified node. | `Node* createBeforeNode(LinkedList *list, Node *node, int data);` |
 | **Find Node by Value** | Retrieve the first node in the list with a specific value. | `Node* findNodeByValue(LinkedList *list, int targetData);` |
 | **Find Node by Index** | Retrieve the node at a specific index in the list. | `Node* findNodeByIndex(LinkedList *list, int tarIndex);` |
-| **Find Node by Next Node** *(Optional)* | Retrieve the node that points to a specific node. | `Node* findNodeByNextNode(LinkedList *list, Node *targetNode);` |
 | **Delete Node by Value** | Remove the first node in the list that matches a given value. | `void deleteNode(LinkedList *list, int targetData);` |
 | **Delete Node by Index** | Remove the node at a specific index in the list. | `void deleteNodeByIndex(LinkedList *list, int index);` |
 | **Print List** | Display all nodes in order. | `void printLinkedList(const LinkedList *list);` |
