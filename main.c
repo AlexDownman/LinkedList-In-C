@@ -256,7 +256,6 @@ LinkedList createLinkedList() {
 
     list.deleteNode = deleteNode;
     list.deleteNodeByIndex = deleteNodeByIndex;
-    list.printLinkedList = printLinkedList;
 
     return list;
 }
